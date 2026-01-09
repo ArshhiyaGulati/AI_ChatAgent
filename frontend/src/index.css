@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Let Tailwind handle most resets */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: theme(colors.zinc.50);
+  color: theme(colors.zinc.900);
+}
